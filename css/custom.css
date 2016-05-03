@@ -1,0 +1,45 @@
+/* custom css below*/
+
+.jumbotron{
+  padding: 450px;
+  background-image:url(../home-img/home-jumbo.jpg);
+  background-size:cover;
+
+}
+
+
+a{
+  color:#444;
+}
+
+a:hover {
+  color: #900;
+  text-decoration: none;
+}
+
+
+.glyphicon-picture {
+    font-size: 75px;
+}
+
+.glyphicon-cog {
+    font-size: 75px;
+}
+
+.glyphicon-link {
+    font-size: 75px;
+}
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
